@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat&display=swap" rel="stylesheet">
 <head>
 <title>Revere</title>
 </head>
+<link rel="stylesheet" href="css/styles.css">
 <body>
-    <p>I here</p>
-    <section>
-    <img src="/images/StatusBar.png" width="393px">
+    <section id="statusBar">
+        <img src="/images/StatusBar.png" width="393px">
     </section>
-    <img src="/images/settings.png">
+    <img src="/images/settings.png" height="24px">
     <img src="/images/Revere_Logo.png" height="42px">
-    <img src="/images/NoteInbox.png">
+    <img src="/images/NoteInbox.png" height="18.47px" width="24.75px">
 
 <h1>People</h1>
-<p>This is a paragraph.</p>
-<p><a href="/user-profile.html">this links to the user profile</a></p>
+<div class="divider" width="100%"></div>
+<button type="button" class="btn btn-primary btn-block">Add person</button>
+<section>
+    <img src="/images/Add_Note_Icon.png" width="48px">
+</section>
+<!-- Tool Bar -->
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link"><img src="/images/active_People_Icon.png" width="35px"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"><img src="/images/inactive_Group_Icon.png" width="35px"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"><img src="/images/inactive_Upcoming_Icon.png" width="46px"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled"><img src="/images/inactive_Search_Icon.png" width="35px"></a>
+      </li>
+    </ul>
+  </nav>
 
+<section>
+    <p><a href="/user-profile.html">Start</a></p>
+</section>
 </body>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="/js/scripts.js"></script>
 </html>

@@ -1,0 +1,51 @@
+/*Fonts*/
+
+h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+  }
+
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: #A0A0A0;
+  }
+
+  .btn-block {
+    width: 80%;
+  }
+
+  .nav-item {
+    display: inline-block;
+    margin: 5%;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
