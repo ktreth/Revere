@@ -9,6 +9,13 @@ p {
     font-size: 16px;
 }
 
+/*Header*/ 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
 .divider {
     display: flex;
     align-items: center;
@@ -21,18 +28,29 @@ p {
     background-color: #A0A0A0;
   }
 
-  .btn-block {
+.btn-block {
     width: 80%;
   }
 
-  .nav-item {
-    display: inline-block;
-    margin: 5%;
-  }
 
-  
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #D9D9D9; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
 
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 25%; /* Equal width (4 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+}
 
+footer {
+    position:fixed;
+    bottom: 0%;
+    width: 100%;
+}
 
 
 
