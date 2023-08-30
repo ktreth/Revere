@@ -76,6 +76,59 @@ justify-content: right;
 padding: 5%;
 }
 
+.flex-container2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+
+}
+
+#search {
+  text-align: center;
+  background-color: #f9f9f9;
+
+}
+
+
+.list-group-item {
+  color: black;
+  font-size: 17px;
+  line-height: 37px;
+  font-family: 'Inter';
+
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0% !important;
+}
+
+.active {
+  background-color:#A0A0A0;
+}
+
+/*Jumbotron*/
+
+.jumbotron-fluid {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top:50%;
+}
+
+.quote {
+  padding-top: 10%;
+  text-align: center;
+  line-height:33.6px;
+}
+
 footer {
 position:fixed;
 bottom: 0%;

@@ -2,8 +2,11 @@ console.log("JS LINKED")
 
   
 
-  
 
-$(document).ready(toggle, function(){
-  $('[data-toggle="tooltip"]').tooltip()
+
+
+
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover()   
 });
+
