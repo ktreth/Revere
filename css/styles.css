@@ -48,6 +48,12 @@ button {
     width: 100%;
 }
 
+.flex-container3 {
+  display: flex;
+  justify-content: space-between;
+    
+}
+
 .btn {
     display: flex;
     font-size: 18px;
