@@ -2,11 +2,7 @@ console.log("JS LINKED")
 
   
 
-
-
-
-
-$(document).ready(function(){
-  $('[data-toggle="popover"]').popover()   
-});
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
 

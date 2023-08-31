@@ -1,6 +1,10 @@
 /*Fonts*/
+body {
+  margin: 0;
+}
 
-h1 {
+
+h2 {
     font-family: 'Inter', sans-serif;
 }
 
@@ -17,6 +21,14 @@ p {
 .flex-container {
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+
+  b {
+    display: flex;
+    width: 90%;
+    margin: auto;
   }
 
 
@@ -45,17 +57,29 @@ button {
     display: inline-block;
     justify-content: space-between;
     width: 100%;
+    
+}
+
+.inline-block2 {
+  padding: 2%;
+}
+
+.textMemoir {
+  padding: 2%;
 }
 
 .flex-container3 {
   display: flex;
   justify-content: space-between;
+  padding: 2%;
     
 }
 
 .btn {
     display: flex;
     font-size: 18px;
+    width: 96%;
+    margin: auto;
     font-family: 'Inter';
     color: #962BBD;
     border-style:dashed;
@@ -63,6 +87,30 @@ button {
     border-radius: 3px;
 
 }
+.btn2 {
+  display: flex;
+  font-size: 18px;
+  width: 96%;
+  margin: auto;
+  font-family: 'Inter';
+  color: #962BBD;
+  border-style:dashed;
+  border-color: #962BBD;
+  border-radius: 3px;
+
+}
+
+.modal-body {
+  display: flex;
+
+}
+
+.btn-secondary {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
 .person {
     padding-right: 5px;
 }
@@ -89,12 +137,12 @@ padding: 5%;
   display: flex;
   justify-content: space-between;
   background-color: #f9f9f9;
+  margin: 1%;
 
 }
 
 .text {
   display: inline-block;
-
 }
 
 
@@ -115,6 +163,8 @@ padding: 5%;
 
 li {
   list-style-type: none;
+  display: flex;
+  margin: 1%;
 }
 
 ul {
@@ -123,6 +173,7 @@ ul {
 
 .active {
   background-color:#A0A0A0;
+  width: 100%;
 }
 
 /*Jumbotron*/
@@ -142,6 +193,16 @@ ul {
   padding-top: 10%;
   text-align: center;
   line-height:33.6px;
+}
+
+.toolTip { 
+  display: flex;
+  width: 96%;
+  margin: auto;
+}
+
+.modal-dialog {
+  display: flex !important;
 }
 
 footer {
